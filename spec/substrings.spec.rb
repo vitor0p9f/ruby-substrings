@@ -16,7 +16,7 @@ RSpec.describe 'Substring project' do
   end
 
   context 'Main function' do
-    substrings_hash = find_substrings(
+    substrings_hash = find_and_count_substrings(
       %w[below down go going horn how howdy it i low own part partner sit],
       'below'
     )
