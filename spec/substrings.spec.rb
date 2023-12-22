@@ -16,13 +16,16 @@ RSpec.describe 'Substring project' do
   end
 
   context 'Main function' do
-    substrings_hash = find_and_count_substrings(
-      %w[below down go going horn how howdy it i low own part partner sit],
-      'below'
-    )
+    it 'should check each word in an array to see if it is a substring and return a hash with the substrings found as
+    keys and the number of times they appeared' do
+      substrings_hash = find_and_count_substrings(
+        %w[below down go going horn how howdy it i low own part partner sit],
+        'below'
+      )
 
-    expected_hash = { 'below' => 1, 'low' => 1 }
+      expected_hash = { 'below' => 1, 'low' => 1 }
 
-    expect(substrings_hash).to eq expected_hash
+      expect(substrings_hash).to eq expected_hash
+    end
   end
 end
