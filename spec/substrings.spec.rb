@@ -14,4 +14,15 @@ RSpec.describe 'Substring project' do
       expect(is_substring).to eq false
     end
   end
+
+  context 'Main function' do
+    substrings_hash = find_substrings(
+      %w[below down go going horn how howdy it i low own part partner sit],
+      'below'
+    )
+
+    expected_hash = { 'below' => 1, 'low' => 1 }
+
+    expect(substrings_hash).to eq expected_hash
+  end
 end
