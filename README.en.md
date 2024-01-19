@@ -14,6 +14,10 @@
 
 This project was developed for the practice of basic concepts of the Ruby language and other tools and design patterns.
 
+## :movie_camera: Project demonstration
+
+![alt text](https://github.com/vitor0p9f/ruby-substrings/blob/main/assets/ruby_substring_video.gif)
+
 ## :gem: Used Gems
 
 * Rspec
