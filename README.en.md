@@ -16,7 +16,7 @@ This project was developed for the practice of basic concepts of the Ruby langua
 
 ## :movie_camera: Project demonstration
 
-![alt text](https://github.com/vitor0p9f/ruby-substrings/blob/main/assets/ruby_substring_video.gif)
+https://github.com/vitor0p9f/ruby-substrings/assets/153991573/3f92eeee-1973-4bb0-8525-d4a30f36ca45
 
 ## :gem: Used Gems
 
