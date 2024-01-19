@@ -14,7 +14,7 @@
 
 Este projeto foi desenvolvido para a prática de conceitos básicos da linguagem Ruby e de demais ferramentas e padrões de projeto.
 
-## :movie_camera: Projeto em execução
+## :movie_camera: Demonstração do projeto
 
 ![alt text](https://github.com/vitor0p9f/ruby-substrings/blob/main/assets/ruby_substring_video.gif)
 
